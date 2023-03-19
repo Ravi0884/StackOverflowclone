@@ -1,0 +1,104 @@
+.view-questions{
+    z-index: -1;
+    margin-left: 20%;
+    margin-right: 9%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing:1px;
+    padding-top: 60px;
+}
+.view-question-title{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.view-question-ask-button{
+    background-color:rgb(128, 128, 246);
+    color:white;
+    border-radius:7px;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    white-space: nowrap;
+    height: fit-content;
+}
+.view-question-ask-button:hover{
+    background-color:rgb(80, 80, 242);
+    color:white;
+}
+.qestion-vie-details{
+    margin:15px 0px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(205, 203, 203);
+}
+.qestion-vie-details > small{
+    padding-left: 10px;
+}
+.view-question-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(205, 203, 203);
+}
+.view-question-body-left{
+    display: flex;
+    flex-direction:column;
+    font-size:larger;
+    color:rgb(153, 157, 153);
+    align-items: center;
+}
+.view-question-body-right{
+    padding:0px 50px;
+}
+.arrow >.MuiSvgIcon-root{
+    font-size:50px;
+    padding: 0;
+    margin: 0;
+}
+.arrow{
+    font-size:30px;
+}
+.view-question-avatar-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+@media screen and (max-width:768px) {
+    .view-questions{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 40px;
+    }
+    .view-question-title{
+        font-size: 12px;
+    }
+    .view-question-ask-button{
+        
+        padding: 10px;
+        margin: 25px;
+        width: 150px;
+        height: 20px;
+        font-size: small;
+    }
+    .view-question-body-right{
+        padding:0px 10px;
+        width: 100%;
+        word-wrap: break-word;
+        overflow-x: clip;
+    }
+    .view-question-avatar-details{
+        margin-right: 10px;
+    }
+    .lst-btn{
+        margin: 20px;
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color:rgb(114, 114, 205);
+        height: 30px;
+    }
+}

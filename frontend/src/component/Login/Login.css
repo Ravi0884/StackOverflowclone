@@ -1,0 +1,61 @@
+.logs{
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 4px 8px  #b9b5b5;
+    margin-bottom: 50px;
+}
+.login-body{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 100px;
+    margin-left: 40%;
+    align-items: center;
+    
+}
+.google-log{
+    padding:10.4px;
+    border: 0.8px solid rgb(122, 122, 122);
+    border-radius: 3px;
+    display: flex;
+    align-items: flex-end;
+    width: 120%;
+    margin-left: -15%;
+    cursor: pointer;
+}
+.google-log >img{
+    padding-right: 10px;
+    width: 20px;
+    padding-left: 10px;
+}
+.log-btn{
+    width: 100%;
+    background-color:rgb(159, 159, 252);
+    color: white;
+    border: none;
+    border-radius:5px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+input{
+    width: 100%;
+}
+.log-btn:hover{
+    background-color:rgb(108, 108, 203);
+    cursor: pointer;
+}
+.err-msg{
+    margin-top: 10px;
+    color: red;
+}
+@media  screen and (max-width:768px) {
+    .login-body{
+        width: 100%;
+        margin-left:2px ;
+    }
+    .log-btn{
+        margin-top: 30px;
+    }
+}
